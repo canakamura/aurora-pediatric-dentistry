@@ -11713,57 +11713,38 @@ h3 {
 }
 
 .dentist-1 .dentist-img {
-	background: url("../../../../../../images/chris1.jpg") no-repeat 50% -10px;
+	background: url("../images/chris1.jpg") no-repeat 50% -10px;
 	background-size: cover;
 	transition: background-image .4s ease-in-out
 }
 
 .dentist-1 .dentist-img:focus,
 .dentist-1 .dentist-img:hover {
-	background: url("../../../../../../images/chris2.jpg") no-repeat 50% -10px;
+	background: url("../images/chris2.jpg") no-repeat 50% -10px;
 	background-size: cover
 }
 
 .dentist-1 .dentist-img:after {
-	content: url("../../../../../../images/chris2.jpg");
+	content: url("../images/chris2.jpg");
 	visibility: hidden;
 	position: absolute;
 	left: -999em
 }
 
 .dentist-2 .dentist-img {
-	background: url("../../../../../../images/chris1.jpg") no-repeat 50%;
+	background: url("../images/chris1.jpg") no-repeat 50%;
 	background-size: cover;
 	transition: background-image .4s ease-in-out
 }
 
 .dentist-2 .dentist-img:focus,
 .dentist-2 .dentist-img:hover {
-	background: url("../../../../../../images/chris2.jpg") no-repeat 50%;
+	background: url("../images/chris2.jpg") no-repeat 50%;
 	background-size: cover
 }
 
 .dentist-2 .dentist-img:after {
-	content: url("../../../../../../images/chris2.jpg");
-	visibility: hidden;
-	position: absolute;
-	left: -999em
-}
-
-.dentist-3 .dentist-img {
-	background: url("../images/dr-amy.jpg") no-repeat 50%;
-	background-size: cover;
-	transition: background-image .4s ease-in-out
-}
-
-.dentist-3 .dentist-img:focus,
-.dentist-3 .dentist-img:hover {
-	background: url("../images/scuba-amy.jpg") no-repeat 50%;
-	background-size: cover
-}
-
-.dentist-3 .dentist-img:after {
-	content: url("../images/scuba-amy.jpg");
+	content: url("../images/chris2.jpg");
 	visibility: hidden;
 	position: absolute;
 	left: -999em
@@ -12332,7 +12313,7 @@ button.hamburger.is-active span {
 
 header.banner {
 	margin-top: -1px;
-	background: url("../../../../../../images/Light Blue.png") no-repeat 50%;
+	background: url("../images/Light Blue.png") no-repeat 50%;
 	background-size: cover;
 	padding-top: 10px;
 }
@@ -12733,7 +12714,7 @@ footer #footer .social-media .fa:hover {
 }
 
 .hero {
-	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("./../../../../images/Crab.png") no-repeat 66%;
+	background: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("../images/Crab.png") no-repeat 66%;
   background-size: cover;
   background-color: yellowgreen;
 	padding: 8vh 0;
@@ -12744,7 +12725,7 @@ footer #footer .social-media .fa:hover {
 @media(min-width:768px) {
 	.hero {
 		padding: 10vh 0;
-		background: url("../../../../../images/Crab.png") no-repeat 50%;
+		background: url("../images/Crab.png") no-repeat 50%;
     background-size: auto;
     background-color: yellowgreen;
 		color: #000
@@ -12753,7 +12734,7 @@ footer #footer .social-media .fa:hover {
 
 @media(min-width:992px) {
 	.hero {
-    background: url("../../../../../images/Crab.png") no-repeat 50%;
+    background: url("../images/Crab.png") no-repeat 50%;
     background-color: yellowgreen;
 		background-size: cover;
 		padding: calc(15vh + 2vw) 0
@@ -12819,14 +12800,14 @@ footer #footer .social-media .fa:hover {
 @media(min-width:20px) {
 	#why-us {
 		padding: 60px 0;
-		background: url("../../../../../../images/cartoonbeach.png") no-repeat 50%;
+		background: url("../images/cartoonbeach.png") no-repeat 50%;
 		background-size: cover
 	}
 }
 
 @media(min-width:992px) {
 	#why-us {
-		background: url("../../../../../../images/cartoonbeach.png") no-repeat 50%;
+		background: url("../images/cartoonbeach.png") no-repeat 50%;
 		background-size: cover;
 		padding: 20px 0 60px;
 		margin-top: -20px
@@ -12936,7 +12917,7 @@ footer #footer .social-media .fa:hover {
 }
 
 #feat {
-	background-image: url("../../../../../../images/Ocean\ with\ rocks.png");
+	background-image: url("../images/Ocean\ with\ rocks.png");
 	background-repeat: no-repeat;
 	background-position: 100%;
 	margin-top: -1px;
@@ -13138,7 +13119,7 @@ footer #footer .social-media .fa:hover {
 }
 
 #kid-friendly {
-	background: url("../../../../../../images/Beach-ball-At-The-Beach.svg") no-repeat fixed 50%;
+	background: url("../images/Beach-ball-At-The-Beach.svg") no-repeat fixed 50%;
 	background-size: cover;
 	text-align: center;
 	padding: 90px 0
@@ -13219,7 +13200,7 @@ footer #footer .social-media .fa:hover {
 .page-content {
 	padding: 10px 0 60px;
 	background: #e1f7ff;
-	background-image: url("../../../../../images/Sandy beach.png")
+	background-image: url("../images/Sandy beach.png")
 }
 
 .page-content h1 {
