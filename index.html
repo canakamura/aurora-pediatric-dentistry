@@ -1,488 +1,865 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-US">
+  <head>
+    <meta charset="utf-8" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-QM5MJH5MHZ"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
 
-<head>
-
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-QM5MJH5MHZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-QM5MJH5MHZ');
-</script>
-
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+      gtag("config", "G-QM5MJH5MHZ");
+    </script>
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png" />
     <link rel="shortcut icon" href="images/favicon.ico" />
-    <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300' rel='stylesheet' type='text/css'>
-
-    <title>Aurora Pediatric Dentistry | Children's Dentists | Aurora, Colorado</title>
-
-    <meta name="description" content="Aurora Pediatric Dentistry in Aurora, Colorado. Our children&#039;s dental services are gentle, friendly and comprehensive. Request an appointment!" />
-    <link rel="canonical" href="index.html" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,300"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <title>
+      Aurora Pediatric Dentistry | Children's Dentists | Aurora, Colorado
+    </title>
+    <meta
+      name="description"
+      content="Aurora Pediatric Dentistry in Aurora, Colorado. Our children's dental services are gentle, friendly and comprehensive. Request an appointment!"
+    />
+    <link rel="canonical" href="https://www.aurorapedsdentistry.com" />
     <meta property="og:locale" content="en_US" />
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Aurora Pediatric Dentistry | Kid Friendly Dentists | Aurora, Colorado" />
-    <meta property="og:description" content="Aurora Pediatric Dentistry in Aurora, Colorado. Our children&#039;s dental services are gentle, friendly and comprehensive. Request an appointment!" />
+    <meta
+      property="og:title"
+      content="Aurora Pediatric Dentistry | Kid Friendly Dentists | Aurora, Colorado"
+    />
+    <meta
+      property="og:description"
+      content="Aurora Pediatric Dentistry in Aurora, Colorado. Our children's dental services are gentle, friendly and comprehensive. Request an appointment!"
+    />
     <meta property="og:url" content="https://canakamura.github.io/" />
     <meta property="og:site_name" content="Aurora Pediatric Dentistry" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:description" content="Aurora Pediatric Dentistry in Aurora, Colorado. Our children&#039;s dental services are gentle, friendly and comprehensive. Request an appointment!" />
-    <meta name="twitter:title" content="Aurora Pediatric Dentistry | Kid Friendly Dentists | Aurora, Colorado" />
-
+    <meta
+      name="twitter:description"
+      content="Aurora Pediatric Dentistry in Aurora, Colorado. Our children's dental services are gentle, friendly and comprehensive. Request an appointment!"
+    />
+    <meta
+      name="twitter:title"
+      content="Aurora Pediatric Dentistry | Kid Friendly Dentists | Aurora, Colorado"
+    />
     <style type="text/css">
-        img.wp-smiley,
-        		img.emoji {
-        			display: inline !important;
-        			border: none !important;
-        			box-shadow: none !important;
-        			height: 1em !important;
-        			width: 1em !important;
-        			margin: 0 .07em !important;
-        			vertical-align: -0.1em !important;
-        			background: none !important;
-        			padding: 0 !important;
-        		}
+      img.wp-smiley,
+      img.emoji {
+        display: inline !important;
+        border: none !important;
+        box-shadow: none !important;
+        height: 1em !important;
+        width: 1em !important;
+        margin: 0 0.07em !important;
+        vertical-align: -0.1em !important;
+        background: none !important;
+        padding: 0 !important;
+      }
     </style>
-    <link rel='stylesheet' id='sage/css-css' href='css/main.css' type='text/css' media='all' />
-    <script type='text/javascript' src='js/jquery-ver=1.12.4.js'></script>
-    <script type='text/javascript' src='js/main.js'></script>
-    <link rel='shortlink' href='index.html' />
+    <link
+      rel="stylesheet"
+      id="sage/css-css"
+      href="css/main.css"
+      type="text/css"
+      media="all"
+    />
+    <script type="text/javascript" src="js/jquery-ver=1.12.4.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <link rel="shortlink" href="index.html" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+      }
 
-</head>
+      .callout {
+        position: fixed;
+        bottom: 50px;
+        right: 20px;
+        margin-left: 20px;
+        max-width: 500px;
+      }
 
-<body class="home page-template-default page page-id-7 sideNavBody">
+      .callout-header {
+        padding: 0px 5px;
+        background: #555;
+        font-size: 30px;
+        color: white;
+      }
+
+      .callout-container {
+        padding: 15px;
+        background-color: #dadaff;
+        color: black;
+      }
+
+      .closebtn {
+        position: absolute;
+        top: -7px;
+        right: 15px;
+        color: white;
+        font-size: 40px;
+        cursor: pointer;
+      }
+
+      .closebtn:hover {
+        color: lightgrey;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body class="home page-template-default page page-id-7 sideNavBody">
     <header class="banner">
-        <div class="container" ; style="margin-bottom: -25px;">
-            <div class="row">
-                <div class="col-md-4" style="text-align: center;background-color: rgba(202, 245, 208, 0); margin-bottom: -10px;">
-                    <p> 5657 S Himalaya St #200</p>
-                </div>
-                <div class="col-md-4" style="text-align: center;background-color: rgba(202, 245, 208, 0);margin-bottom: -10px;">
-                    <p> Aurora, CO 80015 </p>
-                </div>
-                <div class="col-md-4" style="text-align: center;background-color: rgba(202, 245, 208, 0);margin-bottom: 20px;">
-                    <p>
-                        <a href="tel:+17208860808">Phone: 720-886-0808</a>
-                    </p>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-4 logo-nav">
-                        <a class="navbar-logo" href="index.html"><img class="logo header-logo" src="images/aurora-pediatric-dentistry.png" alt="Aurora Pediatric Dentistry" ; style="margin-top: -20px;" /></a>
-                        <button class="hamburger visible-xs visible-sm" data-toggle="offcanvas" data-target="#myNavmenu" data-canvas="body">
-							<span>toggle menu</span>
-						</button>
-                    </div>
-                    <div class="left-nav hidden-xs hidden-sm">
-                        <nav class="top clearfix" ; style="margin-top: 45px;">
-                            <div class="menu-top-left-container">
-                                <ul id="menu-top-left" class="nav navbar-nav pull-right" style="background-color: rgba(202, 245, 208, 0);">
-                                    <li id="menu-item-68" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-68 active">
-                                        <a title="Home" href="index.html">Home</a></li>
-                                    <li id="menu-item-69" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"><a title="Dr. Chris" href="our-dentists/index.html">Dr. Chris</a></li>
-                                    <li id="menu-item-71" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"><a title="Blog" href="blog/index.html">Blog</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <nav class="main clearfix">
-                            <div class="menu-main-left-container">
-                            </div>
-                        </nav>
-                    </div>
-                    <div class="right-nav hidden-xs hidden-sm">
-                        <nav class="top clearfix" ; style="margin-top: 45px;">
-                            <div class="menu-top-right-container" ; style="margin-right: -80px;">
-                                <ul id="menu-top-right" class="nav navbar-nav pull-left" style="background-color: rgba(202, 245, 208, 0);">
-                                    <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122">
-                                        <a title="New Patients" href="new-patients/index.html">New Patients</a></li>
-                                    <li id="menu-item-72" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72">
-                                        <a title="Contact" href="contact/index.html">Contact</a></li>
-                                    <li id="menu-item-77" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77">
-                                        <a title="Covid 19" href="covid-19/index.html">Covid-19</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                        <nav class="main clearfix">
-                            <div class="menu-main-right-container">
-                            </div>
-                        </nav>
-                    </div>
-                </div>
+      <div class="container" style="margin-bottom: -25px">
+        <div class="row">
+          <div
+            class="col-md-4"
+            style="
+              text-align: center;
+              background-color: rgba(202, 245, 208, 0);
+              margin-bottom: -10px;
+            "
+          >
+            <p>5657 S Himalaya St #200</p>
+          </div>
+          <div
+            class="col-md-4"
+            style="
+              text-align: center;
+              background-color: rgba(202, 245, 208, 0);
+              margin-bottom: -10px;
+            "
+          >
+            <p>Aurora, CO 80015</p>
+          </div>
+          <div
+            class="col-md-4"
+            style="
+              text-align: center;
+              background-color: rgba(202, 245, 208, 0);
+              margin-bottom: 20px;
+            "
+          >
+            <p><a href="tel:+17208860808">Phone: 720-886-0808</a></p>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-md-4 logo-nav">
+              <a class="navbar-logo" href="index.html"
+                ><img
+                  class="logo header-logo"
+                  src="images/aurora-pediatric-dentistry.png"
+                  alt="Aurora Pediatric Dentistry Logo"
+                  style="margin-top: -20px"
+              /></a>
+              <button
+                class="hamburger visible-xs visible-sm"
+                data-toggle="offcanvas"
+                data-target="#myNavmenu"
+                data-canvas="body"
+              >
+                <span>toggle menu</span>
+              </button>
             </div>
-            <div class="sideNav" id="sideNav">
-                <nav>
-                    <div class="menu-mobile-container">
-                        <ul id="menu-mobile" class="nav nav-stacked">
-                            <li id="menu-item-97" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-97 active">
-                                <a title="Home" href="index.html">Home</a></li>
-                            <li id="menu-item-111" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"><a title="Dr. Chris" href="our-dentists/index.html">Dr. Chris</a></li>
-                            <li id="menu-item-98" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"><a title="Blog" href="blog/index.html">Blog</a></li>
-                            <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122">
-                                <a title="New Patients" href="new-patients/index.html">New Patients</a></li>
-                            <li id="menu-item-101" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"><a title="Contact" href="contact/index.html">Contact</a></li>
-                            <li id="menu-item-113" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"><a title="COVID-19" href="covid-19/index.html">COVID-19</a></li>
-                        </ul>
-                    </div>
-                </nav>
+            <div class="left-nav hidden-xs hidden-sm">
+              <nav class="top clearfix" style="margin-top: 45px">
+                <div class="menu-top-left-container">
+                  <ul
+                    id="menu-top-left"
+                    class="nav navbar-nav pull-right"
+                    style="background-color: rgba(202, 245, 208, 0)"
+                  >
+                    <li
+                      id="menu-item-68"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-68 active"
+                    >
+                      <a title="Home" href="index.html">Home</a>
+                    </li>
+                    <li
+                      id="menu-item-69"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-69"
+                    >
+                      <a title="Dr. Chris" href="our-dentists/index.html"
+                        >Dr. Chris</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-71"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-71"
+                    >
+                      <a title="Blog" href="blog/index.html">Blog</a>
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <nav class="main clearfix">
+                <div class="menu-main-left-container"></div>
+              </nav>
             </div>
-            <div class="test-size"></div>
+            <div class="right-nav hidden-xs hidden-sm">
+              <nav class="top clearfix" style="margin-top: 45px">
+                <div
+                  class="menu-top-right-container"
+                  style="margin-right: -80px"
+                >
+                  <ul
+                    id="menu-top-right"
+                    class="nav navbar-nav pull-left"
+                    style="background-color: rgba(202, 245, 208, 0)"
+                  >
+                    <li
+                      id="menu-item-122"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"
+                    >
+                      <a title="New Patients" href="new-patients/index.html"
+                        >New Patients</a
+                      >
+                    </li>
+                    <li
+                      id="menu-item-72"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-72"
+                    >
+                      <a title="Contact" href="contact/index.html">Contact</a>
+                    </li>
+                    <li
+                      id="menu-item-77"
+                      class="menu-item menu-item-type-post_type menu-item-object-page menu-item-77"
+                    >
+                      <a title="Covid 19" href="covid-19/index.html"
+                        >Covid-19</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </nav>
+              <nav class="main clearfix">
+                <div class="menu-main-right-container"></div>
+              </nav>
+            </div>
+          </div>
+        </div>
+        <div class="sideNav" id="sideNav">
+          <nav>
+            <div class="menu-mobile-container">
+              <ul id="menu-mobile" class="nav nav-stacked">
+                <li
+                  id="menu-item-97"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home current-menu-item page_item page-item-7 current_page_item menu-item-97 active"
+                >
+                  <a title="Home" href="index.html">Home</a>
+                </li>
+                <li
+                  id="menu-item-111"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-111"
+                >
+                  <a title="Dr. Chris" href="our-dentists/index.html"
+                    >Dr. Chris</a
+                  >
+                </li>
+                <li
+                  id="menu-item-98"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-98"
+                >
+                  <a title="Blog" href="blog/index.html">Blog</a>
+                </li>
+                <li
+                  id="menu-item-122"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"
+                >
+                  <a title="New Patients" href="new-patients/index.html"
+                    >New Patients</a
+                  >
+                </li>
+                <li
+                  id="menu-item-101"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-101"
+                >
+                  <a title="Contact" href="contact/index.html">Contact</a>
+                </li>
+                <li
+                  id="menu-item-113"
+                  class="menu-item menu-item-type-post_type menu-item-object-page menu-item-113"
+                >
+                  <a title="COVID-19" href="covid-19/index.html">COVID-19</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+        </div>
+        <div class="test-size"></div>
+      </div>
     </header>
     <section id="why-us">
-        <div class="why-us">
-            <div class="container" ; style="border-radius: 15px; border: 2px solid#8cbfd8; background-color: rgba(237, 253, 242, 0.85); padding: 25px;">
-                <div class="col-md-6">
-                    <div class="feat-img">
-                        <img src="images/Smile.png" alt="Smile!" style="width:100%;height:100%">
-                    </div>
-                </div>
-                <div class="col-md-6">
-                    <h1 style="font-size:35px;">Welcome to Aurora Pediatric Dentistry</h1>
-                    <p style="font-size:20px;">A place where your child can start their journey for a lifetime of healthy smiles. Aurora Pediatric Dentistry provides comprehensive pediatric dental services in a compassionate and kid friendly environment. Our goal is to give patients and parents a positive dental experience. We hope everyone leaves feeling like they are part of our dental family!</p>
-                    <a class="btn btn-orange btn-block contact-btn" href="contact/index.html">Request an Appointment</a>
-                    <a class="btn btn-orange btn-block contact-btn" href="tel:+17208860808">Call Us: 720-886-0808</a>
-                </div>
+      <div class="why-us">
+        <div
+          class="container"
+          style="
+            border-radius: 15px;
+            border: 2px solid#8cbfd8;
+            background-color: rgba(237, 253, 242, 0.85);
+            padding: 25px;
+          "
+        >
+          <div class="col-md-6">
+            <div class="feat-img">
+              <img
+                src="images/Smile.png"
+                alt="Two children posing and smiling"
+                style="width: 100%; height: 100%"
+              />
             </div>
-            <br><br><br><br><br>
-            <div class="row">
-                <div class="col-xs-1 col-lg-2">
-                </div>
-                <div class="col-xs-10 col-lg-8" style="border-radius: 15px; border: 2px solid#8cbfd8; background-color: rgba(237, 253, 242, 1); padding: 35px;">
-                    <h2 style="font-size:35px">Join the Aurora Pediatric Dentistry Family</p>
-                    </h2>
-                    <p class="why-text" style="font-size:20px;">Our belief is that a lifetime of dentistry starts from the very first appointment. Here at Aurora Pediatric Dentistry we strive to "BUILD HEALTHY SMILES" so your child can start with a strong and healthy dental foundation.</p>
-                </div>
-                <div class="col-xs-1 col-lg-2">
-                </div>
+          </div>
+          <div class="col-md-6">
+            <h1 style="font-size: 35px">
+              Welcome to Aurora Pediatric Dentistry
+            </h1>
+            <p style="font-size: 20px">
+              A place where your child can start their journey for a lifetime of
+              healthy smiles. Aurora Pediatric Dentistry provides comprehensive
+              pediatric dental services in a compassionate and kid friendly
+              environment. Our goal is to give patients and parents a positive
+              dental experience. We hope everyone leaves feeling like they are
+              part of our dental family!
+            </p>
+            <a
+              class="btn btn-orange btn-block contact-btn"
+              href="contact/index.html"
+              >Request an Appointment</a
+            >
+            <a
+              class="btn btn-orange btn-block contact-btn"
+              href="tel:+17208860808"
+              >Call Us: 720-886-0808</a
+            >
+          </div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-xs-1 col-lg-2"></div>
+          <div
+            class="col-xs-10 col-lg-8"
+            style="
+              border-radius: 15px;
+              border: 2px solid#8cbfd8;
+              background-color: rgba(237, 253, 242, 1);
+              padding: 35px;
+            "
+          >
+            <h2 style="font-size: 35px">
+              Join the Aurora Pediatric Dentistry Family<br />
+              <br />
+            </h2>
+            <p class="why-text" style="font-size: 20px">
+              Our belief is that a lifetime of dentistry starts from the very
+              first appointment. Here at Aurora Pediatric Dentistry we strive to
+              "BUILD HEALTHY SMILES" so your child can start with a strong and
+              healthy dental foundation.
+            </p>
+          </div>
+          <div class="col-xs-1 col-lg-2"></div>
+        </div>
+        <br />
+        <br />
+        <br />
+        <div class="row">
+          <div class="col-sm-4">
+            <div class="feat-img">
+              <img
+                src="images/Walrus.png"
+                alt="Cartoon Illustration of a Walrus"
+              />
+              <div class="font-icons"></div>
             </div>
-            <br><br><br>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="feat-img">
-                        <img src="images/Walrus.png" alt="Walrus">
-                        <div class="font-icons">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="content" style="border-radius: 15px; border: 2px solid#8cbfd8; background-color: rgba(237, 253, 242, 1); padding: 0px;">
-                        <h3>Kid Friendly</h3>
-                        <p>Dr. Chris believes that your child’s visit should be positive, fun and educational. Our goal is to build healthy habits at a young age to keep your child’s smile bright and healthy.</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="feat-img">
-                        <img src="images/Fish Family.png" alt="Fish">
-                        <div class="font-icons">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="content" style="border-radius: 25px; border: 2px solid#8cbfd8; background-color: rgba(237, 253, 242, 1); padding: 0px;">
-                        <h3>Dental Family</h3>
-                        <p>Our team is committed to a collaborative relationship with parents. We welcome you to contact us at anytime to discuss your child’s needs and answer any questions you may have. </p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="feat-img">
-                        <img src="images/Turtle.png" alt="Turtle">
-                        <div class="font-icons">
-                        </div>
-                    </div>
-                    <br>
-                    <div class="content" style="border-radius: 25px; border: 2px solid#8cbfd8; background-color: rgba(237, 253, 242, 1); padding: 0px;">
-                        <h3>Special Treatment</h3>
-                        <p>Dr. Chris is board certified and specialty trained to care for the oral health and dental development of your child. We partner with you to determine the best treatment for your child.</p>
-                    </div>
-                </div>
-                <br>
-                <br><br>
-                <div class="row">
-                    <div class="col-sm-12 col-md-12" ;>
-                        <a class="btn btn-orange btn-block contact-btn" href="contact/index.html" style="margin-top: 24px; margin-bottom: 10px" ;>Request an Appointment</a>
-                        <br>
-                        <a class="btn btn-orange btn-block contact-btn" href="tel:+17208860808" style="margin-top: -25px; margin-bottom: -37px" ;>Call Us: 720-886-0808</a>
-                    </div>
-                </div>
-
+            <br />
+            <div
+              class="content"
+              style="
+                border-radius: 15px;
+                border: 2px solid#8cbfd8;
+                background-color: rgba(237, 253, 242, 1);
+                padding: 0px;
+              "
+            >
+              <h3>Kid Friendly</h3>
+              <p>
+                Dr. Chris believes that your child’s visit should be positive,
+                fun and educational. Our goal is to build healthy habits at a
+                young age to keep your child’s smile bright and healthy.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feat-img">
+              <img
+                src="images/Fish%20Family.png"
+                alt="Cartoon Illustration of Fish"
+              />
+              <div class="font-icons"></div>
+            </div>
+            <br />
+            <div
+              class="content"
+              style="
+                border-radius: 25px;
+                border: 2px solid#8cbfd8;
+                background-color: rgba(237, 253, 242, 1);
+                padding: 0px;
+              "
+            >
+              <h3>Dental Family</h3>
+              <p>
+                Our team is committed to a collaborative relationship with
+                parents. We welcome you to contact us at anytime to discuss your
+                child’s needs and answer any questions you may have.
+              </p>
+            </div>
+          </div>
+          <div class="col-sm-4">
+            <div class="feat-img">
+              <img
+                src="images/Turtle.png"
+                alt="Cartoon Illustration of a Turtle"
+              />
+              <div class="font-icons"></div>
+            </div>
+            <br />
+            <div
+              class="content"
+              style="
+                border-radius: 25px;
+                border: 2px solid#8cbfd8;
+                background-color: rgba(237, 253, 242, 1);
+                padding: 0px;
+              "
+            >
+              <h3>Special Treatment</h3>
+              <p>
+                Dr. Chris is board certified and specialty trained to care for
+                the oral health and dental development of your child. We partner
+                with you to determine the best treatment for your child.
+              </p>
+            </div>
+          </div>
+          <br />
+          <br />
+          <br />
+          <div class="row">
+            <div class="col-sm-12 col-md-12">
+              <a
+                class="btn btn-orange btn-block contact-btn"
+                href="contact/index.html"
+                style="margin-top: 24px; margin-bottom: 10px"
+                >Request an Appointment</a
+              ><br />
+              <a
+                class="btn btn-orange btn-block contact-btn"
+                href="tel:+17208860808"
+                style="margin-top: -25px; margin-bottom: -37px"
+                >Call Us: 720-886-0808</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
     <section id="feat">
-        <div class="container">
-            <div class="dentists row">
-                <div class="col-sm-12">
-                    <h2>Meet Dr. Chris</h2>
-                    <br>
-                </div>
-                <div class="col-sm-12 dentist-1">
-                    <div class="dentist-img">
-                    </div>
-                    <div class="col-sm-12" style="border-radius: 15px; border: 2px solid #74cee4; background-color: rgba(255, 255, 255, 0.75); padding: 10px;">
-                        <h3>Christopher Nakamura, DDS</h3>
-                        </p>Dr. Chris was born and raised in Colorado. He graduated from Pomona High School as valedictorian and completed his undergraduate studies at the University of Colorado with honors. He was awarded his D.D.S. degree from the University of Colorado School of Dental Medicine. Upon completing dental school, Dr. Chris completed an Advanced Education in Dentistry residency at Kokua Kalihi Valley in Honolulu, Hawaii.</p>
-
-                        </p>After working with children throughout his dental career, Dr. Chris realized he wanted to specialize in Pediatric Dentistry. He received his specialty training in Pediatric Dentistry from NYU Lutheran Medical Center in Bangor, Maine and Phoenix, Arizona, serving as Chief Resident. Dr. Chris then returned to Hawaii and his extended ohana. For the past 5 years he has enjoyed serving the island's keiki as a Board Certified pediatric dentist.
-                        </p>
-
-                        </p>“As a pediatric dentist, I’ve had the unique opportunity to interact with a large patient pool of children and teenagers. I have come to realize my passion is the pediatric population and my positive patient connection is important because one’s lifelong perception of dental care is often molded by initial childhood visits.”
-                        </p>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="dentists row">
+          <div class="col-sm-12">
+            <h2>Meet Dr. Chris</h2>
+            <br />
+          </div>
+          <div class="col-sm-12 dentist-1">
+            <div class="dentist-img"></div>
+            <div
+              class="col-sm-12"
+              style="
+                border-radius: 15px;
+                border: 2px solid #74cee4;
+                background-color: rgba(255, 255, 255, 0.75);
+                padding: 10px;
+              "
+            >
+              <h3>Christopher Nakamura, DDS</h3>
+              Dr. Chris was born and raised in Colorado. He graduated from
+              Pomona High School as valedictorian and completed his
+              undergraduate studies at the University of Colorado with honors.
+              He was awarded his D.D.S. degree from the University of Colorado
+              School of Dental Medicine. Upon completing dental school, Dr.
+              Chris completed an Advanced Education in Dentistry residency at
+              Kokua Kalihi Valley in Honolulu, Hawaii.After working with
+              children throughout his dental career, Dr. Chris realized he
+              wanted to specialize in Pediatric Dentistry. He received his
+              specialty training in Pediatric Dentistry from NYU Lutheran
+              Medical Center in Bangor, Maine and Phoenix, Arizona, serving as
+              Chief Resident. Dr. Chris then returned to Hawaii and his extended
+              ohana. For the past 5 years he has enjoyed serving the island's
+              keiki as a Board Certified pediatric dentist. “As a pediatric
+              dentist, I’ve had the unique opportunity to interact with a large
+              patient pool of children and teenagers. I have come to realize my
+              passion is the pediatric population and my positive patient
+              connection is important because one’s lifelong perception of
+              dental care is often molded by initial childhood visits.”
             </div>
+          </div>
         </div>
+      </div>
+      <div class="blog-feat row">
+        <div class="col-sm-3"></div>
+        <div class="col-sm-6">
+          <div class="feat-img">
+            <img
+              src="images/aurora-pediatric-dentistry.png"
+              alt="Aurora Pediatric Dentistry Logo"
+              style="
+                width: 75%;
+                height: 75%;
+                border-radius: 15px;
+                border: 2px solid #000;
+                background-color: rgba(254, 254, 254, 1);
+                padding: 10px;
+              "
+            /><br />
+            <br />
+            <br />
+            <br />
+            <h2 style="font-size: 46px; color: white">
+              Aurora Pediatric Dentistry Blog
+            </h2>
+          </div>
         </div>
-        </div>
-        <div class="blog-feat row">
-            <div class="col-sm-3">
+        <div class="col-sm-3"></div>
+        <div class="row">
+          <div class="col-sm-6 col-md-4">
+            <div class="feat-blog-item blog-1">
+              <div
+                class="blog-img"
+                style="
+                  background: url('images/Kids Circle.jpg') no-repeat center;
+                  background-size: cover;
+                "
+              ></div>
+              <div class="header-bar">
+                <h3>Why a Pediatric Dentist?</h3>
+              </div>
+              <div class="content">
+                <p>
+                  Bringing your child to a pediatric dentist allows your child
+                  to be seen by a specialist that solely focuses on treating the
+                  young. To be certified as a pediatric dentist, one must
+                  complete four years of dental school and an additional two to
+                  three years of specialized training. These additional years
+                  allow pediatric dentists to increase...<a
+                    href="Blog/index.html"
+                    >Continued</a
+                  >
+                </p>
+                <a href="blog/index.html"
+                  >Read More about Why You Need A Pediatric Dentistry</a
+                >
+              </div>
             </div>
-            <div class="col-sm-6">
-                <div class="feat-img">
-                    <img src="images/aurora-pediatric-dentistry.png" alt="Aurora Pediatric Dentistry" style="width:75%;height:75%; border-radius: 15px;border: 2px solid #000;background-color: rgba(254, 254, 254, 1);padding: 10px;">
-                    <br><br><br><br>
-                    <h2 style="font-size: 46px;color: white;">Aurora Pediatric Dentistry Blog</h2>
-                </div>
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="feat-blog-item blog-2">
+              <div
+                class="blog-img"
+                style="
+                  background: url('images/Preventative kid.jpg') no-repeat
+                    center -30px;
+                  background-size: cover;
+                "
+              ></div>
+              <div class="header-bar">
+                <h3>Preventative Care</h3>
+              </div>
+              <div class="content">
+                <p>
+                  Although your child will eventually lose all of their primary
+                  (baby) teeth, it is important that these baby teeth are taken
+                  care of. The baby teeth are very important for the proper
+                  development of the child’s permanent (adult) teeth. They also
+                  act as placeholders allowing for the proper eruption and
+                  alignment of the adult...
+                  <a href="Blog/index.html">Continued</a>
+                </p>
+                <a href="blog/index.html"
+                  >Read More about your Child's Preventative Care</a
+                >
+              </div>
             </div>
-            <div class="col-sm-3">
+          </div>
+          <div class="col-sm-6 col-md-4">
+            <div class="feat-blog-item blog-3">
+              <div
+                class="blog-img"
+                style="
+                  background: url('images/Girl flower.jpg') no-repeat center -10px;
+                  background-size: cover;
+                "
+              ></div>
+              <div class="header-bar">
+                <h3>First Dental Visit</h3>
+              </div>
+              <div class="content">
+                <p>
+                  Bringing your child in for their first dental visit is a big
+                  milestone. We recommend that your child be seen for their
+                  first visit by their first birthday or when their first baby
+                  tooth begins to erupt from their gums. By coming into our
+                  office early we can monitor the child’s overall dental
+                  health/development and establish a proper preventative...
+                  <a href="Blog/index.html">Continued</a>
+                </p>
+                <a href="blog/index.html"
+                  >Read More about your Child's First Dental Visit</a
+                >
+              </div>
             </div>
-            <div class="row">
-                <div class="col-sm-6 col-md-4">
-                    <div class="feat-blog-item blog-1">
-                        <div class="blog-img" style="background: url('images/Kids Circle.jpg') no-repeat center; background-size: cover;">
-                        </div>
-                        <div class="header-bar">
-                            <h3>Why a Pediatric Dentist?</h3>
-                        </div>
-                        <div class="content">
-                            <p>Bringing your child to a pediatric dentist allows your child to be seen by a specialist that solely focuses on treating the young. To be certified as a pediatric dentist, one must complete four years of dental school and an additional two to three years of specialized training. These additional years allow pediatric dentists to increase...<a href="Blog/index.html">Continued</a></p>
-                            <a href="blog/index.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="feat-blog-item blog-2">
-                        <div class="blog-img" style="background: url('images/Preventative kid.jpg') no-repeat center -30px; background-size: cover;">
-                        </div>
-                        <div class="header-bar">
-                            <h3>Preventative Care</h3>
-                        </div>
-                        <div class="content">
-                            <p>Although your child will eventually lose all of their primary (baby) teeth, it is important that these baby teeth are taken care of. The baby teeth are very important for the proper development of the child’s permanent (adult) teeth. They also act as placeholders allowing for the proper eruption and alignment of the adult... <a href="Blog/index.html">Continued</a></p>
-                            <a href="blog/index.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-6 col-md-4">
-                    <div class="feat-blog-item blog-3">
-                        <div class="blog-img" style="background: url('images/Girl flower.jpg') no-repeat center -10px; background-size: cover;">
-                        </div>
-                        <div class="header-bar">
-                            <h3>First Dental Visit</h3>
-                        </div>
-                        <div class="content">
-                            <p>Bringing your child in for their first dental visit is a big milestone. We recommend that your child be seen for their first visit by their first birthday or when their first baby tooth begins to erupt from their gums. By coming into our office early we can monitor the child’s overall dental health/development and establish a proper preventative... <a href="Blog/index.html">Continued</a></p>
-                            <a href="blog/index.html">Read More</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        </div>
+      </div>
     </section>
     <section id="kid-friendly">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-7 col-md-offset-5">
-                    <div class="content-box">
-                        <h2>Kid Friendly Atmosphere</h2>
-                        <p>We look forward to welcoming you to our growing pediatric dental practice and it is our goal to create a partnership that will last through the years.</p>
-                        <a class="btn btn-orange btn-block contact-btn" href="contact/index.html">Request an Appointment</a>
-                        <a class="btn btn-orange btn-block contact-btn" href="tel:+17208860808">Call Us: 720-886-0808</a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7 col-md-offset-5">
+            <div class="content-box">
+              <h2>Kid Friendly Atmosphere</h2>
+              <p>
+                We look forward to welcoming you to our growing pediatric dental
+                practice and it is our goal to create a partnership that will
+                last through the years.
+              </p>
+              <a
+                class="btn btn-orange btn-block contact-btn"
+                href="contact/index.html"
+                >Request an Appointment</a
+              >
+              <a
+                class="btn btn-orange btn-block contact-btn"
+                href="tel:+17208860808"
+                >Call Us: 720-886-0808</a
+              >
             </div>
+          </div>
         </div>
+      </div>
     </section>
     <div id="logos">
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-6 col-sm-3">
-                    <img src="images/ada.png" alt="ADA" />
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <img src="images/aapd.png" alt="AAPD" />
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <img src="images/abpd.png" alt="ABPD" />
-                </div>
-                <div class="col-xs-6 col-sm-3">
-                    <img src="images/cda.png" alt="CDA" />
-                </div>
-            </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-6 col-sm-3">
+            <img src="images/ada.png" alt="ADA Logo" />
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <img src="images/aapd.png" alt="AAPD Logo" />
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <img src="images/abpd.png" alt="ABPD Logo" />
+          </div>
+          <div class="col-xs-6 col-sm-3">
+            <img src="images/cda.png" alt="CDA Logo" />
+          </div>
         </div>
-    </div>
-    </main>
-    </div>
-
+      </div>
     </div>
     <a href="index.html#" class="scrollup"></a>
     <div class="footer-map">
-
-        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.579406443309!2d-104.7569766842731!3d39.61415611198008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c895656912937%3A0x166a3d085f0a8592!2sAurora%20Pediatric%20Dentistry!5e0!3m2!1sen!2sus!4v1649603599720!5m2!1sen!2sus" width="100%" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3073.579406443309!2d-104.7569766842731!3d39.61415611198008!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x876c895656912937%3A0x166a3d085f0a8592!2sAurora%20Pediatric%20Dentistry!5e0!3m2!1sen!2sus!4v1649603599720!5m2!1sen!2sus"
+        width="100%"
+        height="360"
+        style="border: 0"
+        allowfullscreen
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+        title="Map showing the location of Aurora Pediatric Dentistry"
+      ></iframe>
     </div>
     <footer>
-        <div class="container">
-            <div class="row" id="footer">
-                <div class="col-sm-6 col-md-4">
-                    <img src="images/aurora-pediatric-dentistry.png" alt="Aurora Pediatric Dentistry" style="width:100%;height:100%; border-radius: 15px;border: 2px solid #000;background-color: rgba(254, 254, 254, 1);padding: 10px; margin-bottom: 20px;">
-                </div>
-                <div class="col-sm-6 col-md-3" style="text-align: center; margin-bottom: 20px;">
-                    <class="text-center">
-                        <h3 class="footer-title" style="margin-bottom: -5px;">Contact Us</h3>
-                        <div class="address" itemscope itemtype="http://schema.org/LocalBusiness">
-                            <div itemprop="address" itemscope itemtype="http://schema.org/PostalAddress">
-                                <span itemprop="streetAddress">5657 S Himalaya St #200</span><br>
-                                <span itemprop="addressLocality">Aurora</span>,
-                                <span itemprop="addressRegion">CO</span>
-                                <span itemprop="postalCode">80015</span>
-                            </div>
-                            <br> Phone: <span itemprop="telephone">(720) 886-0808</span>
-                            <meta itemprop="openingHours" content="Monday 8:00am-3:30pm">
-                            <meta itemprop="openingHours" content="Tuesday 7:30am-3:30pm">
-                            <meta itemprop="openingHours" content="Wednesday Closed">
-                            <meta itemprop="openingHours" content="Thursday 8:00am-3:30pm">
-                            <meta itemprop="openingHours" content="Friday 7:30am-3:30pm">
-                            <meta itemprop="openingHours" content="Saturday 8:00am-12:00pm">
-                            <meta itemprop="openingHours" content="Sunday Closed">
-                        </div>
-                </div>
-                <div class="col-sm-6 col-md-3" style="text-align: center; margin-bottom: 20px;">
-                    <h3 class="footer-title" style="margin-bottom: -5px;">Hours</h3>
-                    <table class="opening-hours">
-                        <tr>
-                            <td class="day">Mon:</td>
-                            <td class="hour">8:00am-3:30pm</td>
-                        </tr>
-                        <tr>
-                            <td class="day">Tues:</td>
-                            <td class="hour">7:30am-3:30pm</td>
-                        </tr>
-                        <tr>
-                            <td class="day">Wed:</td>
-                            <td class="hour">Closed</td>
-                        </tr>
-                        <tr>
-                            <td class="day">Thurs:</td>
-                            <td class="hour">8:00am-3:30pm</td>
-                        </tr>
-                        <tr>
-                            <td class="day">Fri:</td>
-                            <td class="hour">7:30am-3:30pm</td>
-                        </tr>
-                        <tr>
-                            <td class="day">Sat:</td>
-                            <td class="hour">8:00am-12:00pm</td>
-                        </tr>
-                        <tr>
-                            <td class="day">Sun:</td>
-                            <td class="hour">Closed</td>
-                        </tr>
-                    </table>
-                </div>
-                <div class="col-sm-6 col-md-2" style="text-align: center; margin-bottom: 20px;">
-                    <h3 class="footer-title" style="margin-bottom: -5px;">Our Office</h3>
-                    <nav class="clearfix office-nav">
-                        <div class="menu-our-office-container">
-                            <ul id="menu-our-office" class="nav">
-                                <li id="menu-item-93" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"><a title="Meet Dr. Chris" href="our-dentists/index.html">Meet Dr. Chris</a></li>
-                                <li id="menu-item-96" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"><a title="Blog" href="blog/index.html">Blog</a></li>
-                                <li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"><a title="New Patients" href="new-patients/index.html">New Patients</a></li>
-                                <li id="menu-item-95" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"><a title="Contact Us" href="contact/index.html">Contact</a></li>
-                            </ul>
-                        </div>
-                    </nav>
-                    <div class="social-media">
-                        <a href="https://www.facebook.com/" target="_blank"><i class="fa fa-facebook-square"></i></a>
-
-                        <a href="https://twitter.com" target="_blank"><i class="fa fa-twitter-square"></i></a>
-                        <a href="https://www.instagram.com/" target="_blank"><i
-								class="fa fa-instagram"></i></a>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="row" id="footer">
+          <div class="col-sm-6 col-md-4">
+            <img
+              src="images/aurora-pediatric-dentistry.png"
+              alt="Aurora Pediatric Dentistry Logo"
+              style="
+                width: 100%;
+                height: 100%;
+                border-radius: 15px;
+                border: 2px solid #000;
+                background-color: rgba(254, 254, 254, 1);
+                padding: 10px;
+                margin-bottom: 20px;
+              "
+            />
+          </div>
+          <div
+            class="col-sm-6 col-md-3"
+            style="text-align: center; margin-bottom: 20px"
+          >
+            <h3 class="footer-title" style="margin-bottom: -5px">Contact Us</h3>
+            <div
+              class="address"
+              itemscope
+              itemtype="http://schema.org/LocalBusiness"
+            >
+              <div
+                itemprop="address"
+                itemscope
+                itemtype="http://schema.org/PostalAddress"
+              >
+                <span itemprop="streetAddress">5657 S Himalaya St #200</span
+                ><br />
+                <span itemprop="addressLocality">Aurora</span>,
+                <span itemprop="addressRegion">CO</span>
+                <span itemprop="postalCode">80015</span>
+              </div>
+              <br />
+              Phone: <span itemprop="telephone">(720) 886-0808</span>
+              <meta itemprop="openingHours" content="Monday 8:00am-3:30pm" />
+              <meta itemprop="openingHours" content="Tuesday 7:30am-3:30pm" />
+              <meta itemprop="openingHours" content="Wednesday Closed" />
+              <meta itemprop="openingHours" content="Thursday 8:00am-3:30pm" />
+              <meta itemprop="openingHours" content="Friday 7:30am-3:30pm" />
+              <meta itemprop="openingHours" content="Saturday 8:00am-12:00pm" />
+              <meta itemprop="openingHours" content="Sunday Closed" />
             </div>
+          </div>
+          <div
+            class="col-sm-6 col-md-3"
+            style="text-align: center; margin-bottom: 20px"
+          >
+            <h3 class="footer-title" style="margin-bottom: -5px">Hours</h3>
+            <table class="opening-hours">
+              <tr>
+                <td class="day">Mon:</td>
+                <td class="hour">8:00am-3:30pm</td>
+              </tr>
+              <tr>
+                <td class="day">Tues:</td>
+                <td class="hour">7:30am-3:30pm</td>
+              </tr>
+              <tr>
+                <td class="day">Wed:</td>
+                <td class="hour">Closed</td>
+              </tr>
+              <tr>
+                <td class="day">Thurs:</td>
+                <td class="hour">8:00am-3:30pm</td>
+              </tr>
+              <tr>
+                <td class="day">Fri:</td>
+                <td class="hour">7:30am-3:30pm</td>
+              </tr>
+              <tr>
+                <td class="day">Sat:</td>
+                <td class="hour">8:00am-12:00pm</td>
+              </tr>
+              <tr>
+                <td class="day">Sun:</td>
+                <td class="hour">Closed</td>
+              </tr>
+            </table>
+          </div>
+          <div
+            class="col-sm-6 col-md-2"
+            style="text-align: center; margin-bottom: 20px"
+          >
+            <h3 class="footer-title" style="margin-bottom: -5px">Our Office</h3>
+            <nav class="clearfix office-nav">
+              <div class="menu-our-office-container">
+                <ul id="menu-our-office" class="nav">
+                  <li
+                    id="menu-item-93"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-93"
+                  >
+                    <a title="Meet Dr. Chris" href="our-dentists/index.html"
+                      >Meet Dr. Chris</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-96"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-96"
+                  >
+                    <a title="Blog" href="blog/index.html">Blog</a>
+                  </li>
+                  <li
+                    id="menu-item-122"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-122"
+                  >
+                    <a title="New Patients" href="new-patients/index.html"
+                      >New Patients</a
+                    >
+                  </li>
+                  <li
+                    id="menu-item-95"
+                    class="menu-item menu-item-type-post_type menu-item-object-page menu-item-95"
+                  >
+                    <a title="Contact Us" href="contact/index.html">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+            <div class="social-media">
+              <a href="https://www.facebook.com/" target="_blank">Facebook</a>
+              <a href="https://twitter.com" target="_blank">Twitter</a>
+              <a href="https://www.instagram.com/" target="_blank">Instagram</a>
+            </div>
+          </div>
         </div>
+      </div>
     </footer>
-
     <div id="copyright">
-        <div class="container">
-            <div class="row group">
-                <div class="col-md-12 copy">
-                </div>
-            </div>
+      <div class="container">
+        <div class="row group">
+          <div class="col-md-12 copy"></div>
         </div>
+      </div>
     </div>
-
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <style>
-        body {font-family: Arial, Helvetica, sans-serif;}
-        
-        .callout {
-          position: fixed;
-          bottom: 50px;
-          right: 20px;
-          margin-left: 20px;
-          max-width: 500px;
-        }
-        
-        .callout-header {
-          padding: 0px 5px;
-          background: #555;
-          font-size: 30px;
-          color: white;
-        }
-        
-        .callout-container {
-          padding: 15px;
-          background-color: #dadaff;
-          color: black
-        }
-        
-        .closebtn {
-          position: absolute;
-          top: -7px;
-          right: 15px;
-          color: white;
-          font-size: 40px;
-          cursor: pointer;
-        }
-        
-        .closebtn:hover {
-          color: lightgrey;
-        }
-        
-        .center {
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
-          width: 50%;
-        }
-    </style>
-    </head>
-
-    <body>
-        <div class="callout">
-            <div class="callout-header" ; style="text-align:center">COVID-19</div>
-            <span class="closebtn" onclick="this.parentElement.style.display='none';">×</span>
-            <div class="callout-container">
-                <img src="images/Mask 3.png" ; style="width:100px;height:130px;" class="center">
-                <h4 style="text-align: center" ;><strong>To our valued patients,</strong></h4>
-                <p style="text-align: center;">Under the guidance of the CDC and the Colorado Dental Association, we assure you that the safety of both our dental families and team is our top priority. Please refer to the COVID-19 Safety tab before arriving for your appointment. Thank you for your patience and cooperation!
-                </p>
-
-            </div>
-        </div>
-        </div>
-
-    </body>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <div class="callout">
+      <div class="callout-header" style="text-align: center">COVID-19</div>
+      <span class="closebtn" onclick="this.parentElement.style.display='none';"
+        >×</span
+      >
+      <div class="callout-container">
+        <img
+          src="images/Mask%203.png"
+          alt="Child wearing a pink face mask, smiling"
+          style="width: 100px; height: 130px"
+          class="center"
+        />
+        <h4 style="text-align: center">
+          <strong>To our valued patients,</strong>
+        </h4>
+        <p style="text-align: center">
+          Under the guidance of the CDC and the Colorado Dental Association, we
+          assure you that the safety of both our dental families and team is our
+          top priority. Please refer to the COVID-19 Safety tab before arriving
+          for your appointment. Thank you for your patience and cooperation!
+        </p>
+      </div>
+    </div>
+  </body>
 </html>
